@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>computerPlayer</class>
+ <widget class="QDialog" name="computerPlayer">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1264</width>
+    <height>685</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(255, 255, 255);</string>
+  </property>
+  <widget class="QLabel" name="label_pic3">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>20</y>
+     <width>451</width>
+     <height>281</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>330</x>
+     <y>450</y>
+     <width>181</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: qlineargradient(spread:pad, x1:0.0242308, y1:0.079, x2:0.0432692, y2:1, stop:0.394231 rgba(70, 95, 177, 255), stop:1 rgba(62, 147, 238, 255));
+color: rgb(255, 255, 255);
+font: 700 14pt &quot;Segoe UI&quot;;
+border:2px solid  qlineargradient(spread:pad, x1:0.0242308, y1:0.079, x2:0.0432692, y2:1, stop:0.394231 rgba(70, 95, 177, 255), stop:1 rgba(62, 147, 238, 255));
+border-radius: 20px;</string>
+   </property>
+   <property name="text">
+    <string>   Player   ( O )</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit">
+   <property name="geometry">
+    <rect>
+     <x>610</x>
+     <y>450</y>
+     <width>291</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>290</x>
+     <y>310</y>
+     <width>671</width>
+     <height>331</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: qlineargradient(spread:pad, x1:1, y1:1, x2:1, y2:1, stop:0 rgba(226, 226, 226, 255), stop:0.966346 rgba(255, 255, 255, 255));
+
+border:2px solid  lightgray;
+border-radius: 20px;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>510</x>
+     <y>570</y>
+     <width>301</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: qlineargradient(spread:pad, x1:0.0242308, y1:0.079, x2:0.0432692, y2:1, stop:0.394231 rgba(70, 95, 177, 255), stop:1 rgba(62, 147, 238, 255));
+color: rgb(255, 255, 255);
+font: 700 20pt &quot;Segoe UI&quot;;
+border:2px solid  qlineargradient(spread:pad, x1:0.0242308, y1:0.079, x2:0.0432692, y2:1, stop:0.394231 rgba(70, 95, 177, 255), stop:1 rgba(62, 147, 238, 255));
+border-radius: 20px;</string>
+   </property>
+   <property name="text">
+    <string>Play</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>430</x>
+     <y>300</y>
+     <width>381</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 700 20pt &quot;Segoe UI&quot;;
+border:2px solidqlineargradient(spread:pad, x1:0, y1:0, x2:0.00961538, y2:0, stop:1 rgba(255, 255, 255, 255));
+border-radius: 20px;
+color: rgb(70, 95, 177);</string>
+   </property>
+   <property name="text">
+    <string>          Player VS Computer</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>-70</x>
+     <y>670</y>
+     <width>1541</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: qlineargradient(spread:pad, x1:0.0242308, y1:0.079, x2:0.0432692, y2:1, stop:0.394231 rgba(70, 95, 177, 255), stop:1 rgba(62, 147, 238, 255));</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>-30</x>
+     <y>0</y>
+     <width>1541</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: qlineargradient(spread:pad, x1:0.0242308, y1:0.079, x2:0.0432692, y2:1, stop:0.394231 rgba(70, 95, 177, 255), stop:1 rgba(62, 147, 238, 255));</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <zorder>label_5</zorder>
+  <zorder>label_pic3</zorder>
+  <zorder>label</zorder>
+  <zorder>lineEdit</zorder>
+  <zorder>pushButton</zorder>
+  <zorder>label_2</zorder>
+  <zorder>label_3</zorder>
+  <zorder>label_4</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,14 @@
+debug/XOmanage.o
+debug/computerplayer.o
+debug/main.o
+debug/play_2player.o
+debug/play_vscomputer.o
+debug/twoplayer.o
+debug/win_or_lose.o
+debug/xoproject.o
+debug/moc_XOmanage.o
+debug/moc_computerplayer.o
+debug/moc_play_2player.o
+debug/moc_play_vscomputer.o
+debug/moc_twoplayer.o
+debug/moc_win_or_lose.o

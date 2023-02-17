@@ -1,0 +1,14 @@
+release/XOmanage.o
+release/computerplayer.o
+release/main.o
+release/play_2player.o
+release/play_vscomputer.o
+release/twoplayer.o
+release/win_or_lose.o
+release/xoproject.o
+release/moc_XOmanage.o
+release/moc_computerplayer.o
+release/moc_play_2player.o
+release/moc_play_vscomputer.o
+release/moc_twoplayer.o
+release/moc_win_or_lose.o

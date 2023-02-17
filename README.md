@@ -28,3 +28,6 @@ and if you press play without enter your name ,  the name of the other player or
 
 Finally i am glad i finished this project and it is also good to practice on oop and minimax
 
+
+
+https://user-images.githubusercontent.com/92271264/219783450-bcbaf110-58ed-4912-a790-83fcb80cb89e.mp4
